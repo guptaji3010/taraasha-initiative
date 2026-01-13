@@ -69,7 +69,7 @@ export default function Navbar() {
                             "font-heading font-bold text-base md:text-lg leading-none transition-colors",
                             scrolled ? "text-primary" : "text-white"
                         )}>
-                            The Taraasha
+                            Taraasha
                         </span>
                         <span className={cn(
                             "font-heading font-bold text-base md:text-lg leading-none transition-colors",
