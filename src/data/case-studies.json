@@ -1,20 +1,20 @@
 {
-    "case_studies": [
-        {
-            "id": 1,
-            "title": "Aarav's fight against Gaucher Disease",
-            "patientName": "Aarav Kumar",
-            "diagnosis": "Gaucher Disease Type 1",
-            "story": "Diagnosed at age 3, Aarav faced severe spleen enlargement. With the help of enzyme replacement therapy supported by the foundation...",
-            "imageUrl": "/child_medicine.png"
-        },
-        {
-            "id": 2,
-            "title": "Hope for Ananya",
-            "patientName": "Ananya Singh",
-            "diagnosis": "Pompe Disease",
-            "story": "Ananya was losing muscle strength rapidly. Early diagnosis and physiotherapy combined with ERT have helped her regain mobility...",
-            "imageUrl": "/child_wheelchair.png"
-        }
-    ]
+  "case_studies": [
+    {
+      "id": 2,
+      "title": "Hope for Ananya",
+      "patientName": "Ananya Singh",
+      "diagnosis": "Pompe Disease",
+      "story": "Ananya was losing muscle strength rapidly. Early diagnosis and physiotherapy combined with ERT have helped her regain mobility...",
+      "imageUrl": "/child_wheelchair.png"
+    },
+    {
+      "id": 1,
+      "title": "Aarav's fight against Gaucher Disease",
+      "patientName": "Aarav Kumar",
+      "diagnosis": "Gaucher Disease Type 1",
+      "story": "Diagnosed at age 3, Aarav faced severe spleen enlargement. With the help of enzyme replacement therapy supported by the foundation...",
+      "imageUrl": "/child_medicine.png"
+    }
+  ]
 }
