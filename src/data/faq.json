@@ -1,0 +1,24 @@
+{
+    "faqs": [
+        {
+            "question": "What is the mission of The Taraasha Foundation?",
+            "answer": "Our mission is to support children with Lysosomal Storage Disorders (LSDs) by providing access to medical care, education, and holistic support, continuing the legacy of Taraasha Bhargava."
+        },
+        {
+            "question": "What are Lysosomal Storage Disorders (LSDs)?",
+            "answer": "Lysosomal Storage Disorders are rare genetic conditions caused by enzyme deficiencies that prevent cells from breaking down waste. This leads to toxic buildup affecting multiple organs, often requiring life-long specialized treatment."
+        },
+        {
+            "question": "Do you provide financial assistance for medicines?",
+            "answer": "Yes, our Medicine Access program works with partners and donors to provide subsidized or free life-saving medicines to eligible families who cannot afford treatment."
+        },
+        {
+            "question": "How can I contribute or donate?",
+            "answer": "You can support us by joining our community, volunteering, or making a donation. Click the 'Support Us' button to learn more about current needs and campaigns."
+        },
+        {
+            "question": "Are you associated with any medical network?",
+            "answer": "Yes, The Taraasha Foundation is a program by 212 Healthcare, leveraging their extensive medical network and expertise to ensure high-quality care."
+        }
+    ]
+}

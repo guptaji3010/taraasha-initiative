@@ -1,0 +1,76 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dr. Ratna Dua Puri",
+            "specialty": "Chairperson, Institute of Medical Genetics & Genomics",
+            "hospital": "Sir Ganga Ram Hospital",
+            "location": "New Delhi",
+            "profileUrl": "https://sgrh.com/departments/medical-genetics"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Madhulika Kabra",
+            "specialty": "Professor, Division of Genetics",
+            "hospital": "All India Institute of Medical Sciences (AIIMS)",
+            "location": "New Delhi",
+            "profileUrl": "https://www.aiims.edu/"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Sheela Nampoothiri",
+            "specialty": "Head, Dept of Pediatric Genetics",
+            "hospital": "Amrita Institute of Medical Sciences",
+            "location": "Kochi, Kerala",
+            "profileUrl": "https://www.amritahospitals.org/"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Mamta Muranjan",
+            "specialty": "Professor, Dept of Pediatrics",
+            "hospital": "KEM Hospital",
+            "location": "Mumbai, Maharashtra",
+            "profileUrl": "https://www.kem.edu/"
+        },
+        {
+            "id": 5,
+            "name": "Dr. Jayesh Sheth",
+            "specialty": "Director",
+            "hospital": "Institute of Human Genetics",
+            "location": "Ahmedabad, Gujarat",
+            "profileUrl": "http://www.geneticcentre.org/"
+        },
+        {
+            "id": 7,
+            "name": "Dr. Inusha Panigrahi",
+            "specialty": "Professor, Genetic Metabolic Unit",
+            "hospital": "PGIMER",
+            "location": "Chandigarh",
+            "profileUrl": "https://pgimer.edu.in/"
+        },
+        {
+            "id": 8,
+            "name": "Dr. Sumita Danda",
+            "specialty": "Professor & Head, Dept of Clinical Genetics",
+            "hospital": "Christian Medical College (CMC)",
+            "location": "Vellore, Tamil Nadu",
+            "profileUrl": "https://www.cmch-vellore.edu/"
+        },
+        {
+            "id": 9,
+            "name": "Dr. Sujatha Jagadeesh",
+            "specialty": "HOD, Dept of Clinical Genetics",
+            "hospital": "MediScan Systems",
+            "location": "Chennai, Tamil Nadu",
+            "profileUrl": "https://mediscansystems.org/"
+        },
+        {
+            "id": 10,
+            "name": "Dr. Shubha Phadke",
+            "specialty": "HOD, Medical Genetics",
+            "hospital": "Sanjay Gandhi Postgraduate Institute (SGPGIMS)",
+            "location": "Lucknow, Uttar Pradesh",
+            "profileUrl": "https://sgpgims.org.in/"
+        }
+    ]
+}

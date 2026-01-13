@@ -1,0 +1,137 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - name: "diseases"
+        label: "Diseases"
+        file: "src/data/diseases.json"
+        fields:
+          - label: "Diseases List"
+            name: "diseases"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Symptoms", name: "symptoms", widget: "list" }
+              - { label: "Diagnosis", name: "diagnosis", widget: "list" }
+              - { label: "Treatment", name: "treatment", widget: "list" }
+
+      - name: "books"
+        label: "Books"
+        file: "src/data/books.json"
+        fields:
+          - label: "Books List"
+            name: "books"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Cover Image", name: "imageUrl", widget: "image" }
+              - { label: "Purchase Link", name: "link", widget: "string" }
+
+      - name: "doctors"
+        label: "Doctors"
+        file: "src/data/doctors.json"
+        fields:
+          - label: "Doctors List"
+            name: "doctors"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Specialty", name: "specialty", widget: "string" }
+              - { label: "Hospital", name: "hospital", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Profile Link", name: "profileUrl", widget: "string" }
+
+      - name: "hospitals"
+        label: "Hospitals & COEs"
+        file: "src/data/hospitals.json"
+        fields:
+          - label: "Hospitals List"
+            name: "hospitals"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Name", name: "name", widget: "string" }
+              - {
+                  label: "Type",
+                  name: "type",
+                  widget: "select",
+                  options:
+                    ["Centre of Excellence", "Government Centre of Excellence"],
+                }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
+              - { label: "Website", name: "website", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+
+      - name: "case_studies"
+        label: "Case Studies"
+        file: "src/data/case-studies.json"
+        fields:
+          - label: "Stories List"
+            name: "case_studies"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Patient Name", name: "patientName", widget: "string" }
+              - { label: "Diagnosis", name: "diagnosis", widget: "string" }
+              - { label: "Story", name: "story", widget: "markdown" }
+              - { label: "Patient Image", name: "imageUrl", widget: "image" }
+
+      - name: "court_orders"
+        label: "Court Orders"
+        file: "src/data/court-orders.json"
+        fields:
+          - label: "Orders List"
+            name: "court_orders"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "State", name: "state", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "PDF Link", name: "pdfLink", widget: "string" }
+
+      - name: "faqs"
+        label: "FAQs"
+        file: "src/data/faq.json"
+        fields:
+          - label: "FAQ List"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "text"}
+
+      - name: "pages"
+        label: "Pages"
+        files:
+          - name: "home"
+            label: "Home Page"
+            file: "src/data/home.json"
+            fields:
+              - label: "Hero Section"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - {label: "Title Prefix", name: "title_prefix", widget: "string"}
+                  - {label: "Title Highlight (Colored)", name: "title_highlight", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "text"}
+                  - {label: "Primary Button Text", name: "button_primary_text", widget: "string"}
+                  - {label: "Primary Button Link", name: "button_primary_link", widget: "string"}
+                  - {label: "Secondary Button Text", name: "button_secondary_text", widget: "string"}
+                  - {label: "Secondary Button Link", name: "button_secondary_link", widget: "string"}

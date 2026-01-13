@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-heading: var(--font-outfit);
+  --font-sans: var(--font-inter);
+
+  /* Precise "Her Smile" Image Palette */
+  /* Text/Headers: Deep Warm Brown (from "HER SMILE" text) */
+  --color-primary: #543D32;
+  --color-primary-light: #7D5E50;
+  --color-primary-dark: #3E2B24;
+
+  /* Flower/Heart: Soft Petal Pink (from the flower/logo heart) */
+  --color-secondary: #F0A6B6;
+  --color-secondary-light: #F8C3CF;
+  --color-secondary-dark: #D61C4E;
+
+  /* Background Glow: Golden Hour Mist (from the sunny background) */
+  --color-accent: #E8C586;
+  --color-accent-light: #F5DEB3;
+
+  /* Base Background: Darker Cream/Beige for contrast */
+  --color-background: #F2E8DA;
+  --color-foreground: #543D32;
+
+  /* Soft Neutrals for cards/sections */
+  --color-slate-50: #FDFAF6;
+  --color-slate-100: #F4EFEA;
+  --color-slate-200: #E6DDD5;
+  --color-slate-900: #3E2B24;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root {
+  --background: #FFF8F0;
+  --foreground: #543D32;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f172a;
+    --foreground: #f8fafc;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }

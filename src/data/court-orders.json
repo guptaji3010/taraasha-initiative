@@ -1,0 +1,28 @@
+{
+    "court_orders": [
+        {
+            "id": 1,
+            "title": "Delhi High Court Order - Free Treatment for LSDs",
+            "date": "2023-12-15",
+            "state": "New Delhi",
+            "summary": "The High Court directed AIIMS to provide free enzyme replacement therapy to children with Gaucher disease.",
+            "pdfLink": "#"
+        },
+        {
+            "id": 2,
+            "title": "Karnataka High Court Judgment on Rare Diseases",
+            "date": "2023-08-20",
+            "state": "Karnataka",
+            "summary": "Direction to the state government to allocate a specific budget for the treatment of rare disease patients.",
+            "pdfLink": "#"
+        },
+        {
+            "id": 3,
+            "title": "Kerala High Court Directive",
+            "date": "2023-05-10",
+            "state": "Kerala",
+            "summary": "Mandate for the formation of a state-level committee to oversee the disbursement of crowdfunding for rare diseases.",
+            "pdfLink": "#"
+        }
+    ]
+}

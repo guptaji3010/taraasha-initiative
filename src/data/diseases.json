@@ -1,0 +1,86 @@
+{
+    "diseases": [
+        {
+            "id": "gaucher",
+            "name": "Gaucher Disease",
+            "description": "A rare genetic disorder where a type of fat (lipid) called glucocerebroside cannot be broken down properly, accumulating in various organs.",
+            "symptoms": [
+                "Enlarged spleen and liver (hepatosplenomegaly)",
+                "Low blood platelet count (easy bruising/bleeding)",
+                "Bone pain and fractures",
+                "Fatigue due to anemia"
+            ],
+            "diagnosis": [
+                "Enzyme Assay (testing beta-glucosidase activity)",
+                "Genetic Testing (identifying GBA gene mutations)"
+            ],
+            "treatment": [
+                "Enzyme Replacement Therapy (ERT) - Life-long infusions",
+                "Substrate Reduction Therapy (SRT) - Oral medication",
+                "Supportive care for bone and pain management"
+            ]
+        },
+        {
+            "id": "pompe",
+            "name": "Pompe Disease",
+            "description": "A disorder that disables the heart and skeletal muscles because the body cannot make a protein that breaks down glycogen.",
+            "symptoms": [
+                "Progressive muscle weakness (especially in legs and trunk)",
+                "Difficulty breathing",
+                "Enlarged heart (in infants)",
+                "Difficulty feeding and swallowing"
+            ],
+            "diagnosis": [
+                "Enzyme Assay (GAA enzyme activity in blood/skin)",
+                "Genetic Testing (GAA gene sequencing)",
+                "Muscle Biopsy (less common now)"
+            ],
+            "treatment": [
+                "Enzyme Replacement Therapy (ERT) - Myozyme/Lumizyme",
+                "Physical Therapy to maintain muscle strength",
+                "Respiratory support (ventilators/BiPAP)"
+            ]
+        },
+        {
+            "id": "fabry",
+            "name": "Fabry Disease",
+            "description": "A progressive genetic disorder where a specific type of fat builds up in the body's cells, affecting the heart, kidneys, and skin.",
+            "symptoms": [
+                "Burning pain in hands and feet (Acroparesthesia)",
+                "Dark red spots on skin (Angiokeratomas)",
+                "Decreased sweating (Hypohidrosis)",
+                "Kidney complications and heart problems"
+            ],
+            "diagnosis": [
+                "Enzyme Assay (for males) - Alpha-GAL activity",
+                "Genetic Testing (GLA gene) - Required for females"
+            ],
+            "treatment": [
+                "Enzyme Replacement Therapy (ERT)",
+                "Chaperone Therapy (oral medication for specific mutations)",
+                "Pain management and organ-specific care (kidney/heart)"
+            ]
+        },
+        {
+            "id": "mps",
+            "name": "Mucopolysaccharidosis (MPS)",
+            "description": "A group of metabolic disorders caused by the body's inability to break down glycosaminoglycans (sugar chains).",
+            "symptoms": [
+                "Coarse facial features",
+                "Joint stiffness and skeletal abnormalities",
+                "Clouded corneas",
+                "Respiratory issues and enlarged organs"
+            ],
+            "diagnosis": [
+                "Urine test for specialized GAGs",
+                "Enzyme Assay in blood",
+                "Genetic Testing to confirm the specific MPS type (I, II, III, etc.)"
+            ],
+            "treatment": [
+                "Enzyme Replacement Therapy (ERT) for some types (MPS I, II, IVA, VI, VII)",
+                "Hematopoietic Stem Cell Transplantation (HSCT)",
+                "Symptomatic management (surgery for hernias, heart valve repair)"
+            ]
+        }
+    ]
+}

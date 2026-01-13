@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Rare Disease Epidemiology",
+            "author": "John Forman (Preface)",
+            "description": "In mid-2017, John was invited to write a preface for a book called Rare Diseases Epidemiology, which concentrates on the work done for LDNZ and ISMRD and talks about what patient advocates can achieve.",
+            "imageUrl": "https://covers.openlibrary.org/b/isbn/9783319671420-L.jpg",
+            "link": "https://a.co/d/eGNl78I"
+        },
+        {
+            "id": 2,
+            "title": "Transitions: Managing Your own Healthcare",
+            "author": "Dawn Laney, Nadia Ali, and Carol Ogg",
+            "description": "What Every Teen with an LSD needs to know. This is a wonderful book that helps families manage the transition from childhood to adulthood. It helps the young person understand how to take over their own care.",
+            "imageUrl": "/images/books/transitions.png",
+            "link": "https://www.amazon.com/Transitions-Managing-Healthcare-Every-Needs/dp/1493628046"
+        },
+        {
+            "id": 3,
+            "title": "Kelley’s Journey: Facing a Rare Disease with Courage",
+            "author": "Denise Crompton",
+            "description": "Denise Crompton is the author of this book. Her daughter Kelley was affected by Mucolipidosis type III. The book is about the family’s journey of living with ML III and how they managed the very complex issues.",
+            "imageUrl": "/images/books/kelleys_journey.png",
+            "link": "https://www.amazon.com/Kelleys-Journey-Facing-Disease-Courage-ebook/dp/B0792KXDX9"
+        }
+    ]
+}

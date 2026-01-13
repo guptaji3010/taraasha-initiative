@@ -1,0 +1,11 @@
+{
+    "hero": {
+        "title_prefix": "Lighting the Way for",
+        "title_highlight": "Children with LSDs",
+        "subtitle": "A 212 Healthcare Foundation dedicated to providing medicine, support, and hope to families affected by Lysosomal Storage Diseases.",
+        "button_primary_text": "Our Initiatives",
+        "button_primary_link": "/initiatives",
+        "button_secondary_text": "Enroll a Patient",
+        "button_secondary_link": "/enroll"
+    }
+}

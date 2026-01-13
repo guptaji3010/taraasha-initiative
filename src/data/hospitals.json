@@ -1,0 +1,58 @@
+{
+    "hospitals": [
+        {
+            "id": 1,
+            "name": "Centre of Excellence for Rare Diseases (AIIMS)",
+            "type": "Government Centre of Excellence",
+            "location": "New Delhi",
+            "address": "Ansari Nagar, New Delhi - 110029",
+            "website": "https://www.aiims.edu/",
+            "phone": "+91-11-26588500"
+        },
+        {
+            "id": 2,
+            "name": "KEM Hospital Genetic Clinic",
+            "type": "Government Centre of Excellence",
+            "location": "Mumbai, Maharashtra",
+            "address": "Acharya Donde Marg, Parel, Mumbai - 400012",
+            "website": "https://www.kem.edu/",
+            "phone": "+91-22-24107000"
+        },
+        {
+            "id": 3,
+            "name": "Indira Gandhi Institute of Child Health",
+            "type": "Centre of Excellence",
+            "location": "Bengaluru, Karnataka",
+            "address": "South Hospital Complex, Dharmaram College Post, Bengaluru - 560029",
+            "website": "http://igich.karnataka.gov.in/",
+            "phone": "+91-80-26964300"
+        },
+        {
+            "id": 4,
+            "name": "Sanjay Gandhi Postgraduate Institute (SGPGIMS)",
+            "type": "Centre of Excellence",
+            "location": "Lucknow, Uttar Pradesh",
+            "address": "Raebareli Road, Lucknow - 226014",
+            "website": "https://sgpgims.org.in/",
+            "phone": "+91-522-2668700"
+        },
+        {
+            "id": 5,
+            "name": "Institute of Child Health",
+            "type": "Centre of Excellence",
+            "location": "Chennai, Tamil Nadu",
+            "address": "Egmore, Chennai - 600008",
+            "website": "http://www.mmcrgggh.tn.gov.in",
+            "phone": "+91-44-28191111"
+        },
+        {
+            "id": 6,
+            "name": "Post Graduate Institute of Medical Education and Research (PGIMER)",
+            "type": "Government Centre of Excellence",
+            "location": "Chandigarh",
+            "address": "Sector-12, Chandigarh - 160012",
+            "website": "https://pgimer.edu.in/",
+            "phone": "+91-172-2747585"
+        }
+    ]
+}
