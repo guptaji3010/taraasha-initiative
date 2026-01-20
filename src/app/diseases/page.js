@@ -31,10 +31,10 @@ export default function DiseasesPage() {
             {/* Header */}
             <section className="pt-32 pb-16 bg-slate-900 px-4">
                 <div className="container mx-auto max-w-4xl text-center text-white">
-                    <h1 className="text-3xl md:text-5xl font-heading font-bold mb-6">
+                    <h1 className="text-3xl md:text-4xl font-heading font-bold mb-4">
                         Lysosomal Storage Disorders
                     </h1>
-                    <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed mb-8">
+                    <p className="text-base md:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed mb-8">
                         Comprehensive information on various types of LSDs, their symptoms, diagnosis, and treatments.
                     </p>
 

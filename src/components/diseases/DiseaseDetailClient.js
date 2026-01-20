@@ -46,11 +46,11 @@ export default function DiseaseDetailClient({ disease }) {
                         <span className="text-white font-medium truncate max-w-[200px]">{disease.name}</span>
                     </nav>
 
-                    <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+                    <h1 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
                         {disease.name}
                     </h1>
                     {disease.synonyms && (
-                        <p className="text-lg text-white/70 max-w-2xl mx-auto italic">
+                        <p className="text-base text-white/70 max-w-2xl mx-auto italic">
                             Also known as: {disease.synonyms.join(", ")}
                         </p>
                     )}
