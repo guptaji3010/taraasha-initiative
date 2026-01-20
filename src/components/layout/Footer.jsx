@@ -16,7 +16,7 @@ export default function Footer() {
                                     className="w-full h-full object-contain"
                                 />
                             </div>
-                            <span className="font-heading font-bold text-xl">The Taraasha Foundation</span>
+                            <span className="font-heading font-bold text-xl">Taraasha Foundation</span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             A 212 Healthcare Foundation dedicated to supporting children with Lysosomal Storage Disorders. Bringing hope, medicine, and community together.
@@ -82,7 +82,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
-                    <p>© {new Date().getFullYear()} The Taraasha Foundation. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Taraasha Foundation. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
