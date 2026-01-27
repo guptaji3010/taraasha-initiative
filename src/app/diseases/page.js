@@ -21,7 +21,7 @@ export default function DiseasesPage() {
             const matchesFilter = activeFilter === "All" ? true : disease.name.toUpperCase().startsWith(activeFilter);
 
             return matchesSearch && matchesFilter;
-        });
+        }).sort((a, b) => a.name.localeCompare(b.name));
     }, [searchTerm, activeFilter]);
 
     return (

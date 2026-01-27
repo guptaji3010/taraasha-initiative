@@ -39,7 +39,7 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-secondary">Quick Links</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Quick Links</h3>
                         <ul className="space-y-2 text-slate-400">
                             <li><Link href="/about" className="hover:text-white transition-colors">Our Story</Link></li>
                             <li><Link href="/initiatives" className="hover:text-white transition-colors">Medicine Access</Link></li>
@@ -51,7 +51,7 @@ export default function Footer() {
 
                     {/* Resources */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-secondary">Patient Care & Knowledge</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Patient Care & Knowledge</h3>
                         <ul className="space-y-2 text-slate-400">
                             <li><Link href="/diseases" className="hover:text-white transition-colors">Disease Info</Link></li>
                             <li><Link href="/support" className="hover:text-white transition-colors">Family Support</Link></li>
@@ -63,7 +63,7 @@ export default function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4 text-secondary">Contact Us</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Contact Us</h3>
                         <ul className="space-y-4 text-slate-400">
                             <li className="flex items-start gap-3">
                                 <MapPin size={20} className="text-secondary shrink-0 mt-1" />
